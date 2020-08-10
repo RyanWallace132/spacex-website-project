@@ -1,0 +1,120 @@
+
+
+
+
+
+body {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/R_qBNweDQuWZtmKRc49CyoZ_NgY=/0x0:2584x1196/1200x800/filters:focal(1144x499:1556x911)/cdn.vox-cdn.com/uploads/chorus_image/image/67145795/splashdown_1.5.jpg") ;
+    background-repeat: repeat-x;
+    background-size: 150vh;
+}
+
+
+#listList {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+#falcon9 {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+#falconheavy {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#dragon {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#starship {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#humanspaceflight {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+
+#rideshare {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#falcon9:hover {
+    text-decoration: underline;
+}
+#falconheavy:hover {
+    text-decoration: underline;
+}
+#dragon:hover {
+    text-decoration: underline;
+}
+#starship:hover {
+    text-decoration: underline;
+}
+#humanspaceflight:hover {
+    text-decoration: underline;
+}
+#rideshare:hover {
+    text-decoration: underline;
+}
+h3 {
+    color: white;
+}
+h1 {
+    color: white;
+    font-size: 48px;
+    line-height: 48px;
+    margin: auto;
+}
+#feature h1{
+    display: block;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
