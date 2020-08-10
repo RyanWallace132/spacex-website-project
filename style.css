@@ -1,12 +1,12 @@
 
 
 
-
-
 body {
     background-image: url("https://cdn.vox-cdn.com/thumbor/R_qBNweDQuWZtmKRc49CyoZ_NgY=/0x0:2584x1196/1200x800/filters:focal(1144x499:1556x911)/cdn.vox-cdn.com/uploads/chorus_image/image/67145795/splashdown_1.5.jpg") ;
     background-repeat: repeat-x;
     background-size: 150vh;
+    width: 100%;
+    height: 100vh;
 }
 
 
@@ -17,8 +17,8 @@ body {
 
 
 #falcon9 {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     display: inline;
     font-family: 'Space Mono', monospace;
     color: white;
@@ -41,7 +41,7 @@ body {
 
 
 #dragon {
-    margin: 0;
+    margin: 10;
     padding: 0;
     display: inline;
     font-family: 'Space Mono', monospace;
@@ -53,7 +53,7 @@ body {
 
 
 #starship {
-    margin: 0;
+    margin: 10;
     padding: 0;
     display: inline;
     font-family: 'Space Mono', monospace;
@@ -65,7 +65,7 @@ body {
 
 
 #humanspaceflight {
-    margin: 0;
+    margin: 10;
     padding: 0;
     display: inline;
     font-family: 'Space Mono', monospace;
@@ -76,7 +76,7 @@ body {
 
 
 #rideshare {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     display: inline;
     font-family: 'Space Mono', monospace;
@@ -106,15 +106,25 @@ body {
 }
 h3 {
     color: white;
+    position: absolute;
+    bottom: 350px;
+    right: 1300px;
+    font-family: 'Space Mono', monospace;
 }
 h1 {
     color: white;
     font-size: 48px;
     line-height: 48px;
-    margin: auto;
+    position: absolute;
+    bottom: 150px;
+    width: 500px;
+    left: 345px;
+    font-family: 'Space Mono', monospace;
 }
-#feature h1{
-    display: block;
-    margin-bottom: 20px;
-    letter-spacing: -1px;
+
+#h1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
+
